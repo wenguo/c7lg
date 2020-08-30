@@ -685,3 +685,5 @@ alias cd..="cd .."
 alias cd...="cd ../.."
 ' >> ~/.bashrc
 ```
+
+\newpage

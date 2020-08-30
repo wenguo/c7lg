@@ -65,7 +65,9 @@
 ## 参考资源
 
 * https://access.redhat.com/documentation/zh_cn/red-hat-enterprise-linux/
-* https://access.redhat.com/documentation/zh-CN/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/# 实验指导 1.2 - 初入 Linux
+* https://access.redhat.com/documentation/zh-CN/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/
+\newpage
+# 实验指导 1.2 - 初入 Linux
 
 >#### 学习目标
 > * 学会本地登录和远程登录
@@ -310,6 +312,8 @@
       # systemctl poweroff
       # poweroff
       # shutdown -h now
+
+\newpage
 # 实验指导 2.1 - 命令行操作基础
 
 >#### 学习目标
@@ -997,6 +1001,8 @@ alias cd..="cd .."
 alias cd...="cd ../.."
 ' >> ~/.bashrc
 ```
+
+\newpage
 # 实验指导 2.2 - 文本编辑与处理
 
 >#### 学习目标
@@ -1478,6 +1484,8 @@ vimtutor             # 通过 vimtutor 学习 vim 的使用
 
 
 
+
+\newpage
 # 实验指导 3.1 - 账户管理与口令管理
 
 >#### 学习目标
@@ -1557,6 +1565,8 @@ vimtutor             # 通过 vimtutor 学习 vim 的使用
 * 强制用户 student 在首次登录时修改其口令
 * 以 student 用户身份登录，并修改其口令
 
+
+\newpage
 # 实验指导 3.2 - 权限管理和进程管理
 
 >#### 学习目标
@@ -1630,6 +1640,8 @@ root 组只能读和执行，其他人无任何权限，但是用户 tyler 对�
 
 
 
+
+\newpage
 # 实验指导 4 - 本地存储管理
 
 >#### 学习目标
@@ -1889,6 +1901,8 @@ done
   * 查看磁盘限额报告
   * 查看 fanny 的用户配额
   * 查看 apps 的组配额
+
+\newpage
 # 实验指导 5 - 网络配置与包管理
 
 >#### 学习目标
@@ -2244,6 +2258,8 @@ _END
 >* https://www.debian.org/doc/
 >  * https://www.debian.org/doc/manuals/debian-reference/ch05.zh-cn.html
 
+
+\newpage
 # 实验指导 6 - 服务管理与基础服务
 
 >#### 学习目标
@@ -2401,6 +2417,8 @@ _END
 ## 任务11：服务管理 （续）
 
 * 在 c6-v1 容器上使用 `service` 和 `chkconfig` 管理服务
+
+\newpage
 # 实验指导 7 - 系统维护
 
 >#### 学习目标
@@ -2535,7 +2553,9 @@ _END
 
 * 找回丢失的 root 口令
 * 使用 gpt 分区设备的备份分区表修复其主分区表
-* 使用通过 dd 命令备份的 DOS（MBR） 分区表镜像文件修复 DOS 分区表# 实验指导 8 - 服务器安全
+* 使用通过 dd 命令备份的 DOS（MBR） 分区表镜像文件修复 DOS 分区表
+\newpage
+# 实验指导 8 - 服务器安全
 
 >#### 学习目标
 > * 系统安全
@@ -2714,7 +2734,9 @@ _END
 
 >**参考**
 >* https://cisofy.com/documentation/lynis/get-started/
->* `man lynis`# 实验指导 9.1 - Linux 防火墙
+>* `man lynis`
+\newpage
+# 实验指导 9.1 - Linux 防火墙
 
 >#### 学习目标
 > * 使用 `firewall-cmd` 或 `firewall-config` 工具配置基于 firewalld 守护进程的防火墙
@@ -2885,6 +2907,8 @@ _END
 
 
 
+
+\newpage
 # 实验指导 9.2 - 代理服务 与 VPN（选做）
 
 >#### 学习目标
@@ -2923,6 +2947,8 @@ _END
 >参考
 >* https://github.com/Nyr/openvpn-install
 >* https://github.com/Angristan/OpenVPN-install
+
+\newpage
 # 实验指导 10 - Shell 编程
 
 >#### 学习目标
@@ -3119,6 +3145,8 @@ $ echo $?
 * [Shell 编程之语法基础](https://linuxtoy.org/archives/shell-programming-basic.html)
 * [Linux Shell Scripting Tutorial (LSST) v2.0 ](https://bash.cyberciti.biz/guide/Main_Page)
 
+
+\newpage
 # 实验指导 11 - DHCP 和 DNS 服务
 
 >#### 学习目标
@@ -3182,7 +3210,9 @@ $ echo $?
 * 服务只监听在 Host-Only 网卡
 * 本地域 DNS 服务器
 * 非本地域的 DNS 转发器
-* DHCP 服务器# 实验指导 12 - FTP 服务和 NFS 服务
+* DHCP 服务器
+\newpage
+# 实验指导 12 - FTP 服务和 NFS 服务
 
 >#### 学习目标
 >* 配置匿名 FTP 服务
@@ -3277,6 +3307,8 @@ done
 
 
 
+
+\newpage
 # 实验指导 13 - Samba 服务
 
 >#### 学习目标
@@ -3352,6 +3384,8 @@ done
 
 >**参考**
 >* http://www.techrepublic.com/article/how-to-manage-user-security-in-samba/
+
+\newpage
 # 实验指导 14 - Apache 静态站点
 
 >#### 学习目标
@@ -3745,7 +3779,9 @@ fi
 
 >**参考**
 >* [Apache on CentOS 6](https://www.server-world.info/en/note?os=CentOS_6&p=httpd)
->* [Apache on Debian 9](https://www.server-world.info/en/note?os=Debian_9&p=httpd)# 实验指导 15.1 - LAMP
+>* [Apache on Debian 9](https://www.server-world.info/en/note?os=Debian_9&p=httpd)
+\newpage
+# 实验指导 15.1 - LAMP
 
 >#### 学习目标
 >* 配置基于 php5_module 模块的 LAMP 环境
@@ -4134,7 +4170,9 @@ mv src/dokuwiki-2017-02-19e htdocs
 
 ### 要求
 * 在 c6-v1 容器上配置 **Apache2.4+php7.0+php-fpm+mpm_envent_module**
-* 在 d9-v1 容器上配置 **Apache2.4+php7.0+php-fpm+mpm_envent_module**# 实验指导 15.2 - Tomcat & Apache
+* 在 d9-v1 容器上配置 **Apache2.4+php7.0+php-fpm+mpm_envent_module**
+\newpage
+# 实验指导 15.2 - Tomcat & Apache
 
 >#### 学习目标
 * 安装配置 OpenJDK 或 Java SE Development Kit(Oracle) 
@@ -4174,7 +4212,9 @@ mv src/dokuwiki-2017-02-19e htdocs
   * 不对 /docs 的URI访问进行反向代理
   * 使用 AJP 协议反向代理 Tomcat 的默认实例
 * 配置 Apache 反向代理 Tomcat 第二个实例
-* 配置 Apache 反向代理 usermin （https://localhost:20000）# 实验指导 16 - 邮件服务
+* 配置 Apache 反向代理 usermin （https://localhost:20000）
+\newpage
+# 实验指导 16 - 邮件服务
 
 >#### 学习目标
 >* 配置基于系统用户的邮件服务器
@@ -4202,3 +4242,5 @@ mv src/dokuwiki-2017-02-19e htdocs
 
 * 在新建的 虚拟机/容器 里安装 [iRedMail](http://www.iredmail.org)
 
+
+\newpage
