@@ -155,5 +155,3 @@
 ## 任务11：服务管理 （续）
 
 * 在 c6-v1 容器上使用 `service` 和 `chkconfig` 管理服务
-
-\newpage

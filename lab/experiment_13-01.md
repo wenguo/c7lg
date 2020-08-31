@@ -1,4 +1,4 @@
-# 实验指导 13 - Samba 服务
+# 实验指导 6.2 - Samba 服务
 
 >#### 学习目标
 >* 配置任何人均可读写的共享
@@ -73,5 +73,3 @@
 
 >**参考**
 >* http://www.techrepublic.com/article/how-to-manage-user-security-in-samba/
-
-\newpage

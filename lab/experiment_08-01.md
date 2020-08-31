@@ -178,4 +178,3 @@
 >**参考**
 >* https://cisofy.com/documentation/lynis/get-started/
 >* `man lynis`
-\newpage

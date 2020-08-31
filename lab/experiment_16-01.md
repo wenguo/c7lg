@@ -26,5 +26,3 @@
 
 * 在新建的 虚拟机/容器 里安装 [iRedMail](http://www.iredmail.org)
 
-
-\newpage

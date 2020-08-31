@@ -66,4 +66,3 @@
 
 * https://access.redhat.com/documentation/zh_cn/red-hat-enterprise-linux/
 * https://access.redhat.com/documentation/zh-CN/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/
-\newpage

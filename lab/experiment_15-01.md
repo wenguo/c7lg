@@ -1,4 +1,4 @@
-# 实验指导 15.1 - LAMP
+# 实验指导 6.2 - LAMP
 
 >#### 学习目标
 >* 配置基于 php5_module 模块的 LAMP 环境
@@ -388,4 +388,3 @@ mv src/dokuwiki-2017-02-19e htdocs
 ### 要求
 * 在 c6-v1 容器上配置 **Apache2.4+php7.0+php-fpm+mpm_envent_module**
 * 在 d9-v1 容器上配置 **Apache2.4+php7.0+php-fpm+mpm_envent_module**
-\newpage

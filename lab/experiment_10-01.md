@@ -194,5 +194,3 @@ $ echo $?
 * [Shell 编程之语法基础](https://linuxtoy.org/archives/shell-programming-basic.html)
 * [Linux Shell Scripting Tutorial (LSST) v2.0 ](https://bash.cyberciti.biz/guide/Main_Page)
 
-
-\newpage

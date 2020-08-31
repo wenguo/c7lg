@@ -243,5 +243,3 @@
       # systemctl poweroff
       # poweroff
       # shutdown -h now
-
-\newpage
